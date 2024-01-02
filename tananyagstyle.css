@@ -1,0 +1,198 @@
+body{
+    margin: auto;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: flex;
+    background: whitesmoke;
+}
+.container-fluid{
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+.baloldalnav{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0;
+    width: 420px;
+    background-color: transparent;
+    background-color: whitesmoke;
+}
+.elsosor{
+    height: fit-content;
+}
+.baloldal{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 30px;
+
+}
+
+#flex{
+    display: flex;
+    background: linear-gradient(90deg, rgba(253,98,98,1 ) 5%, rgba(18,2,20,1) 100%);
+    font-style: bolder;
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    gap: 30px;
+}
+#flex img{
+    height: 75px;
+    width: 75px;
+}
+ol{
+    padding: 0;
+    font-weight: bold;
+    color: rgba(22, 23, 26, 1);
+}
+
+.keretescim{
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 750px;
+    background: linear-gradient(90deg,  rgba(253,98,98,1 ) 5%, rgba(18,2,20,1) 100%);
+    height: fit-content;
+    margin-top: 100px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.keretesfocim{
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 750px;
+    background: linear-gradient(90deg,  rgba(253,98,98,1 ) 5%, rgba(18,2,20,1) 100%);
+    height: fit-content;
+    margin-top: 100px;
+    color: #2f6daf;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+
+.ebbekerulminden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cim_alatt{
+    border: #FD6262 3px solid;
+    color: #FD6262;
+    height: 35px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin:0 25px 0 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+}
+.cim_alatt:hover {
+    transition: 0.2s;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FD6262;
+    color: whitesmoke;
+    border: #FD6262;
+    text-decoration: underline;
+}
+.sor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    color: #FD6262;
+    text-decoration: underline;
+}
+
+.balcim{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(22, 23, 26, 1);
+}
+
+.baloldal button{
+    border: none;
+    background: transparent;
+}
+
+.balalcim{
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.balcim:hover{
+    text-decoration: underline;
+}
+
+.balcimshown{
+    color: #FD6262;
+}
+
+.alli{
+    list-style: none;
+}
+
+.balalcim:hover{
+    text-decoration: underline;
+}
+
+.resultbox{
+    border: 3px solid #FD6262;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.chosen{
+    border: #FD6262 3px solid;
+    color: whitesmoke;
+    height: 35px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin:0 25px 0 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+    background: #FD6262;
+}
+
+.chosen:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: #FD6262;
+    border: #FD6262 3px solid;
+    text-decoration: underline;
+}
+
+.contentp{
+    font-size: 30px;
+}
+
+.contentimg{
+    height: 125px;
+    width: 125px;
+    border: 3px solid #FD6262;
+    border-radius: 10px;
+}
+
+.chosenalli{
+    color: #FD6262;
+}
