@@ -31,8 +31,22 @@
                         </div>
                         <ul class="t1 hidden">
                             <li class="alli"><button onclick="valaszt(this),infok(this)" value="A Java-ról" class="balalcim">A Java-ról</button></li>
-                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Java alapok" class="balalcim">Java alapok</button></li>
-                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="teszt" class="balalcim">Teszt</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Hello Világ" class="balalcim">Hello Világ</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Felépítése (szintaxisa)" class="balalcim">Felépítése (szintaxisa)</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Kiíratás" class="balalcim">Kiíratás</button></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="baloldal">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t2')" id="Változók" class="balcim">Változók</button> 
+                            </div>
+                        </div>
+                        <ul class="t2 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Változók és típusai" class="balalcim">Változók és típusai</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Változók deklarálása" class="balalcim">Változók deklarálása</button></li>
                         </ul>
                     </li>
 
@@ -40,141 +54,128 @@
                     <li class="baloldal">
                         <div class="row">
                             <div class="col-md-10">
-                                <button onclick="hide(this,'t2')" id="asd" class="balcim">asd</button> 
+                                <button onclick="hide(this,'t3')" id="Operátorok" class="balcim">Operátorok</button> 
                             </div>
                         </div>
-                        <ul class="t2 hidden">
-                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="asd" class="balalcim">asd</button></li>
+                        <ul class="t3 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Matematikai operátorok" class="balalcim">Matematikai operátorok</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Összehasonlító operátorok" class="balalcim">Összehasonlító operátorok</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Logikai operátorok" class="balalcim">Logikai operátorok</button></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="baloldal">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t4'),infok(this)" id="Elágazások" value="Elágazások" class="balcim">Elágazások</button> 
+                            </div>
+                        </div>
+                        <ul class="t4 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Elágazások" class="balalcim">Elágazások</button></li>
+                        </ul>
+                    </li>        
+                    
+
+                    <li class="baloldal">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t5')" id="Sztringek" class="balcim">Sztringek</button> 
+                            </div>
+                        </div>
+                        <ul class="t5 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Sztringek (1. rész)" class="balalcim">Sztringek (1. rész)</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Sztringek (2. rész)" class="balalcim">Sztringek (2. rész)</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="StringBuilder" class="balalcim">StringBuilder</button></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="baloldal">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t6')" id="asd1" class="balcim">Ciklusok</button> 
+                            </div>
+                        </div>
+                        <ul class="t6 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value='"For" Ciklus' class="balalcim">"For" Ciklus</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value='"While" Ciklus' class="balalcim">"While" Ciklus</button></li>
+                            
                         </ul>
                     </li>
 
 
                     <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t7')" id="Tombok_Listak" class="balcim">Tömbök, Listák</button> 
+                            </div>
+                        </div>
+                        <ul class="t7 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Tömbök" class="balalcim">Tömbök</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Listák" class="balalcim">Listák</button></li>
+                        </ul>
+                    </li>
+   
+                    
+                    <li class="baloldal">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t8')" id="Adatbekérés_" class="balcim">Adatbekérés</button> 
+                            </div>
+                        </div>
+                        <ul class="t8 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Adatbekérés" class="balalcim">Adatbekérés</button></li>
                         </ul>
                     </li>
 
 
                     <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <button onclick="hide(this,'t9')" id="" class="balcim">Fájlkezelés</button> 
+                            </div>
+                        </div>
+                        <ul class="t9 hidden">
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Fájlbeolvasás" class="balalcim">Fájlbeolvasás</button></li>
+                            <li class="alli"><button onclick="valaszt(this),infok(this)" value="Fájlbaírás" class="balalcim">Fájlbaírás</button></li>
                         </ul>
                     </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-
-
-                    <li class="baloldal"><ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul></li>
                 </ol>
+
             </div>
 
             <div class="col-md-8 ebbekerulminden">
-                <div><p class="keretescim shadow">Válassz ki egy tananyagot</p> </div>
+                <div style="max-width: 100%;"><p class="keretescim shadow">Válassz ki egy tananyagot</p> </div>
 
-                <div class="sor">
-                    <div id="info" onclick="infok(this)" class="cim_alatt chosen">
+                <div class="row sor">
+                    <div id="info" onclick="infok(this)" class="col-md-3 cim_alatt chosen">
                         Infok
                     </div>
 
-                    <div id="pelda" onclick="peldak(this)" class="cim_alatt">
+                    <div id="pelda" onclick="peldak(this)" class="col-md-3 cim_alatt">
                         Példák
                     </div>
 
 
-                    <div id="feladat" onclick="feladatok(this)" class="cim_alatt">
+                    <div id="feladat" onclick="feladatok(this)" class="col-md-3 cim_alatt">
                         Feladatok
                     </div>
 
 
-                    <div id="megoldas" onclick="megoldasok(this)" class="cim_alatt">
+                    <div id="megoldas" onclick="megoldasok(this)" class="col-md-3 cim_alatt">
                         Megoldások
                     </div>
 
                 </div>
                 <div class="resultbox row">
-                    <h1>asd</h1>
+                    <div class="col-md-12 contentp text-center baseheadtitle"><h1>Válassz ki egy tananyagot!</h1></div>
                 </div>
+                
             </div>
         </div>
     </div>
+
 </body>
 </html>
+

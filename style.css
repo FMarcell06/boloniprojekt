@@ -200,4 +200,11 @@ div{
     width: 100%;
 }
 
+.contactlogo{
+    height: 30px;
+    width: 37px;
+}
 
+.contacttext :hover{
+    color: #FD6262;
+}
