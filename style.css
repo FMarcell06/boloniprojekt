@@ -109,10 +109,6 @@ a{
     background: linear-gradient(90deg, rgba(253,98,98,1) 44%, rgba(22,23,26,0) 95%);
 }
 
-div{
-    /*border: 3px solid red;*/
-}
-
 .rightsidea{
     color: white;
     text-decoration: none;
@@ -207,4 +203,8 @@ div{
 
 .contacttext :hover{
     color: #FD6262;
+}
+
+#jsulilogo{
+    width: 80%;
 }
