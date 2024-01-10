@@ -6,12 +6,11 @@ body{
 .container-fluid{
     margin: auto;
     padding: 0;
-    background: url(src/fejleckep7.png);
+    background: url(fejleckep7.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-position: center 0;
 }
 .row{
     width: 100%;
@@ -22,7 +21,6 @@ body{
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     padding: 0;
-    width: 420px;
     background-color: transparent;
     background-color: whitesmoke;
     margin-right: 50px;
@@ -30,9 +28,12 @@ body{
 }
 .elsosor{
     height: fit-content;
+    justify-content: space-between;
 }
 .baloldal{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.899);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
     padding: 2px;
     margin: 30px;
 
@@ -62,6 +63,7 @@ body{
 
 .ebbekerulminden ol{
     margin-left: 45px;
+    position: relative;
 }
 .keretescim{
     border-radius: 5px;
@@ -123,15 +125,42 @@ body{
     text-decoration: underline;
 }
 .sor{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .title{
-    color: #FD6262;
+    display: flex;
+    position: relative;
+    padding: 0;
+    justify-content: center;
+
+}
+.title h1{
     text-decoration: underline;
+    color: #FD6262;
+    padding: 0;
+}
+.toogle{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    font-size: 150%;
+    background-color: white;
+    border-top: #FD6262 solid 2px;
+    border-right: #FD6262 solid 2px;
+    border-left: #FD6262 solid 2px;
+    border-bottom: #FD6262 solid 2px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    
 }
 
 .balcim{
@@ -281,3 +310,61 @@ td:nth-child(1){
 td:nth-child(2){
     border-right: 2px black solid;
 }
+
+#menu-open{
+    display: none;
+}
+#menu-close{
+    display: none;
+}
+.lat{
+    display: flex;
+}
+/*1410*/
+
+@media (min-width:951px)  and (max-width:1200px){
+    .sor{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .cim_alatt{
+        flex: 40%;
+    }
+}
+@media (max-width: 950px) {
+    .contentp{font-size: 20px;}
+    .cim_alatt{
+        flex: 40%;
+    }
+    .ebbekerulminden{
+        flex: 100%;
+        margin: 0 auto;
+    }
+    #menu-open{
+        display: none;
+    }
+    .baloldalnav{
+        display: none;
+        max-height: fit-content;
+        max-width: 420px;
+        min-width: 300px;
+    }
+    .baloldalnav.lat{
+        display:initial;
+    }
+    #menu-open.lat{
+        display: flex;
+    }
+    #menu-close{
+        display: none;
+        margin-right: -15px;
+    }
+    #menu-close.lat{
+        display: flex;
+    }
+
+}
+    
+

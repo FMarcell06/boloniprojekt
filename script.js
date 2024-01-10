@@ -48,7 +48,12 @@ function valaszt(domObj){
     } 
     if(domObj.classList.contains('.chosenalli') != true) {
         domObj.classList.add('chosenalli')
+        document.querySelector('.baloldalnav').classList.remove('lat');
+        document.querySelector('#menu-close').classList.remove('lat');
+        document.querySelector('#menu-open').classList.add('lat');
     }
+
+    
 
     switch (ertek) {
         case 'A Java-ról': console.log('asdasdasdsa');
@@ -346,4 +351,16 @@ function ellenoriz() {
         document.querySelector('.ellBtn').classList.remove('checkedbtn')
         console.log('valaszok hidden');
     }
+}
+
+
+function kinyit(){
+    document.querySelector('.baloldalnav').classList.add('lat')
+    document.querySelector('#menu-open').classList.remove('lat')
+    document.querySelector('#menu-close').classList.add('lat')
+}
+function bezar(){
+    document.querySelector('.baloldalnav').classList.remove('lat')
+    document.querySelector('#menu-open').classList.add('lat')
+    document.querySelector('#menu-close').classList.remove('lat')
 }

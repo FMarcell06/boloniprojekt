@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="tananyagstyle.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/push-chevron-down.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="tananyagstyle.css">
     <script src="script.js"></script>
     <title>JavaSuli Tananyagok</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row elsosor">
-            <div class="col-md-4 baloldalnav">
+            <div class="col-md-3 baloldalnav close">
                 <div id="flex">
-                    <a href="index.html"><img src="src/logo.png" id="logo" class="img-fluid" alt=""></a>
+                    <a href="index.html"><img src="logo.png" id="logo" class="img-fluid" alt=""></a>
                     <h1 class="pt-2" >JavaSuli</h1>
                 </div>
                 <ol>
                     <div class="row">
                         <div class="col-md-12 text-center title">
-                            <h1>Tananyagok</h1>
+                            <h1 >Tananyagok</h1>
                         </div>
+                        
                     </div>
                     <li class="baloldal">
                         <div class="row">
@@ -67,8 +69,8 @@
                     
                     <li class="baloldal">
                         <div class="row">
-                            <div class="col-md-10">
-                                <button onclick="hide(this,'t4'),infok(this)" id="Elágazások" value="Elágazások" class="balcim">Elágazások</button> 
+                            <div class="col-md-8">
+                                <button onclick="hide(this,'t4'),infok(this)" id="Fontos Elágazások" value="Fontos Elágazások" class="balcim">Fontos Elágazások</button> 
                             </div>
                         </div>
                         <ul class="t4 hidden">
@@ -146,24 +148,26 @@
             </div>
 
             <div class="col-md-8 ebbekerulminden">
+                <i class='bx bx-menu toogle lat' id="menu-open" onclick="kinyit()"></i>
+                <i class='bx bx-x toogle' id="menu-close" onclick="bezar()"></i>
                 <div style="max-width: 100%;"><p class="keretescim shadow">Válassz ki egy tananyagot</p> </div>
 
                 <div class="row sor">
-                    <div id="info" onclick="infok(this)" class="col-md-3 cim_alatt chosen">
+                    <div id="info" onclick="infok(this)" class="col-md-3 col-sm-6 col-12 cim_alatt chosen">
                         Infok
                     </div>
 
-                    <div id="pelda" onclick="peldak(this)" class="col-md-3 cim_alatt">
+                    <div id="pelda" onclick="peldak(this)" class="col-md-3 col-sm-6 col-12  cim_alatt">
                         Példák
                     </div>
 
 
-                    <div id="feladat" onclick="feladatok(this)" class="col-md-3 cim_alatt">
+                    <div id="feladat" onclick="feladatok(this)" class="col-md-3 col-sm-6 col-12  cim_alatt">
                         Feladatok
                     </div>
 
 
-                    <div id="megoldas" onclick="megoldasok(this)" class="col-md-3 cim_alatt">
+                    <div id="megoldas" onclick="megoldasok(this)" class="col-md-3 col-sm-6 col-12   cim_alatt">
                         Megoldások
                     </div>
 
